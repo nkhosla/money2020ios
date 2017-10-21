@@ -11,6 +11,8 @@ import TextFieldEffects
 
 class EnterNewAccountInfo: UIViewController {
 
+
+    
     @IBOutlet weak var firstNameField: AkiraTextField!
     @IBOutlet weak var secondNameField: AkiraTextField!
     @IBOutlet weak var emailField: AkiraTextField!
@@ -39,5 +41,11 @@ class EnterNewAccountInfo: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func proceed(_ sender: Any) {
+        print("proceed")
+        
+    }
+    
 
 }
