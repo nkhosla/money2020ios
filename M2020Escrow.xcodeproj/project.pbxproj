@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7871584D8D6C3EE14DF7D443 /* Pods_M2020EscrowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF86AFD920028D39FBD84328 /* Pods_M2020EscrowUITests.framework */; };
+		CEFDC25A45C9179E71387307 /* Pods_M2020EscrowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997ED97FEF2DF79D5B2A0D0C /* Pods_M2020EscrowTests.framework */; };
 		D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C083E1F9BC44F003835D1 /* AppDelegate.swift */; };
 		D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08401F9BC44F003835D1 /* ViewController.swift */; };
 		D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08421F9BC44F003835D1 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		D87C08491F9BC44F003835D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08471F9BC44F003835D1 /* LaunchScreen.storyboard */; };
 		D87C08541F9BC44F003835D1 /* M2020EscrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08531F9BC44F003835D1 /* M2020EscrowTests.swift */; };
 		D87C085F1F9BC44F003835D1 /* M2020EscrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C085E1F9BC44F003835D1 /* M2020EscrowUITests.swift */; };
+		E491D97D105E17708015635E /* Pods_M2020Escrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300A102AD91469D48A2CCF98 /* Pods_M2020Escrow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300A102AD91469D48A2CCF98 /* Pods_M2020Escrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M2020Escrow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4849193D4B209D1308EA8DB2 /* Pods-M2020Escrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020Escrow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow.debug.xcconfig"; sourceTree = "<group>"; };
+		59DC2E60B1C6032A0868A5A4 /* Pods-M2020EscrowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020EscrowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M2020EscrowTests/Pods-M2020EscrowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67A839FAC745B29D944C0C68 /* Pods-M2020EscrowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020EscrowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M2020EscrowUITests/Pods-M2020EscrowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C3DA0BB2B4F0DA864091EF0 /* Pods-M2020EscrowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020EscrowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2020EscrowUITests/Pods-M2020EscrowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		997ED97FEF2DF79D5B2A0D0C /* Pods_M2020EscrowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M2020EscrowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF86AFD920028D39FBD84328 /* Pods_M2020EscrowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M2020EscrowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C083B1F9BC44F003835D1 /* M2020Escrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2020Escrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C083E1F9BC44F003835D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D87C08401F9BC44F003835D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		D87C085A1F9BC44F003835D1 /* M2020EscrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M2020EscrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C085E1F9BC44F003835D1 /* M2020EscrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2020EscrowUITests.swift; sourceTree = "<group>"; };
 		D87C08601F9BC44F003835D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB565297EA2A4F29A4BC78F7 /* Pods-M2020EscrowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020EscrowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2020EscrowTests/Pods-M2020EscrowTests.release.xcconfig"; sourceTree = "<group>"; };
+		F17570A47F7BD72D38202DDB /* Pods-M2020Escrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020Escrow.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E491D97D105E17708015635E /* Pods_M2020Escrow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFDC25A45C9179E71387307 /* Pods_M2020EscrowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7871584D8D6C3EE14DF7D443 /* Pods_M2020EscrowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526D1F242A7945E125CBC1DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4849193D4B209D1308EA8DB2 /* Pods-M2020Escrow.debug.xcconfig */,
+				F17570A47F7BD72D38202DDB /* Pods-M2020Escrow.release.xcconfig */,
+				59DC2E60B1C6032A0868A5A4 /* Pods-M2020EscrowTests.debug.xcconfig */,
+				DB565297EA2A4F29A4BC78F7 /* Pods-M2020EscrowTests.release.xcconfig */,
+				67A839FAC745B29D944C0C68 /* Pods-M2020EscrowUITests.debug.xcconfig */,
+				7C3DA0BB2B4F0DA864091EF0 /* Pods-M2020EscrowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98BA46CFF43FBAC95E5CFBA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				300A102AD91469D48A2CCF98 /* Pods_M2020Escrow.framework */,
+				997ED97FEF2DF79D5B2A0D0C /* Pods_M2020EscrowTests.framework */,
+				CF86AFD920028D39FBD84328 /* Pods_M2020EscrowUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D87C08321F9BC44F003835D1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				D87C08521F9BC44F003835D1 /* M2020EscrowTests */,
 				D87C085D1F9BC44F003835D1 /* M2020EscrowUITests */,
 				D87C083C1F9BC44F003835D1 /* Products */,
+				526D1F242A7945E125CBC1DF /* Pods */,
+				98BA46CFF43FBAC95E5CFBA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D87C08631F9BC44F003835D1 /* Build configuration list for PBXNativeTarget "M2020Escrow" */;
 			buildPhases = (
+				12BE583ADD8EFC83B55F0496 /* [CP] Check Pods Manifest.lock */,
 				D87C08371F9BC44F003835D1 /* Sources */,
 				D87C08381F9BC44F003835D1 /* Frameworks */,
 				D87C08391F9BC44F003835D1 /* Resources */,
+				D84479886E9AD42FC9A174F5 /* [CP] Embed Pods Frameworks */,
+				5D6CE1492756D6DD32A539B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D87C08661F9BC44F003835D1 /* Build configuration list for PBXNativeTarget "M2020EscrowTests" */;
 			buildPhases = (
+				C71959AD2006F3695F7E24E3 /* [CP] Check Pods Manifest.lock */,
 				D87C084B1F9BC44F003835D1 /* Sources */,
 				D87C084C1F9BC44F003835D1 /* Frameworks */,
 				D87C084D1F9BC44F003835D1 /* Resources */,
+				17D361A32BE6F275529AC175 /* [CP] Embed Pods Frameworks */,
+				B0A8A31906CDD75DCC88C6D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D87C08691F9BC44F003835D1 /* Build configuration list for PBXNativeTarget "M2020EscrowUITests" */;
 			buildPhases = (
+				BA07487C72B0D5CAA18BB0A8 /* [CP] Check Pods Manifest.lock */,
 				D87C08561F9BC44F003835D1 /* Sources */,
 				D87C08571F9BC44F003835D1 /* Frameworks */,
 				D87C08581F9BC44F003835D1 /* Resources */,
+				B2B70378E8A93FC6C4AEE35B /* [CP] Embed Pods Frameworks */,
+				24B616B3A4222B86BCDD18E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12BE583ADD8EFC83B55F0496 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M2020Escrow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17D361A32BE6F275529AC175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M2020EscrowTests/Pods-M2020EscrowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24B616B3A4222B86BCDD18E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M2020EscrowUITests/Pods-M2020EscrowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6CE1492756D6DD32A539B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A8A31906CDD75DCC88C6D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M2020EscrowTests/Pods-M2020EscrowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2B70378E8A93FC6C4AEE35B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M2020EscrowUITests/Pods-M2020EscrowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA07487C72B0D5CAA18BB0A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M2020EscrowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71959AD2006F3695F7E24E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-M2020EscrowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84479886E9AD42FC9A174F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D87C08371F9BC44F003835D1 /* Sources */ = {
@@ -424,6 +623,7 @@
 		};
 		D87C08641F9BC44F003835D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4849193D4B209D1308EA8DB2 /* Pods-M2020Escrow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +639,7 @@
 		};
 		D87C08651F9BC44F003835D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17570A47F7BD72D38202DDB /* Pods-M2020Escrow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +655,7 @@
 		};
 		D87C08671F9BC44F003835D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DC2E60B1C6032A0868A5A4 /* Pods-M2020EscrowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +673,7 @@
 		};
 		D87C08681F9BC44F003835D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB565297EA2A4F29A4BC78F7 /* Pods-M2020EscrowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +691,7 @@
 		};
 		D87C086A1F9BC44F003835D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A839FAC745B29D944C0C68 /* Pods-M2020EscrowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +708,7 @@
 		};
 		D87C086B1F9BC44F003835D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3DA0BB2B4F0DA864091EF0 /* Pods-M2020EscrowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
