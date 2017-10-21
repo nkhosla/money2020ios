@@ -16,6 +16,7 @@
 		D87C08491F9BC44F003835D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08471F9BC44F003835D1 /* LaunchScreen.storyboard */; };
 		D87C08541F9BC44F003835D1 /* M2020EscrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08531F9BC44F003835D1 /* M2020EscrowTests.swift */; };
 		D87C085F1F9BC44F003835D1 /* M2020EscrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C085E1F9BC44F003835D1 /* M2020EscrowUITests.swift */; };
+		D87C086D1F9BC9AB003835D1 /* NewUserFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C086C1F9BC9AB003835D1 /* NewUserFlow.storyboard */; };
 		E491D97D105E17708015635E /* Pods_M2020Escrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300A102AD91469D48A2CCF98 /* Pods_M2020Escrow.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		D87C085A1F9BC44F003835D1 /* M2020EscrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M2020EscrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C085E1F9BC44F003835D1 /* M2020EscrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2020EscrowUITests.swift; sourceTree = "<group>"; };
 		D87C08601F9BC44F003835D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87C086C1F9BC9AB003835D1 /* NewUserFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewUserFlow.storyboard; sourceTree = "<group>"; };
 		DB565297EA2A4F29A4BC78F7 /* Pods-M2020EscrowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020EscrowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2020EscrowTests/Pods-M2020EscrowTests.release.xcconfig"; sourceTree = "<group>"; };
 		F17570A47F7BD72D38202DDB /* Pods-M2020Escrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020Escrow.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +142,7 @@
 				D87C083E1F9BC44F003835D1 /* AppDelegate.swift */,
 				D87C08401F9BC44F003835D1 /* ViewController.swift */,
 				D87C08421F9BC44F003835D1 /* Main.storyboard */,
+				D87C086C1F9BC9AB003835D1 /* NewUserFlow.storyboard */,
 				D87C08451F9BC44F003835D1 /* Assets.xcassets */,
 				D87C08471F9BC44F003835D1 /* LaunchScreen.storyboard */,
 				D87C084A1F9BC44F003835D1 /* Info.plist */,
@@ -283,6 +286,7 @@
 			files = (
 				D87C08491F9BC44F003835D1 /* LaunchScreen.storyboard in Resources */,
 				D87C08461F9BC44F003835D1 /* Assets.xcassets in Resources */,
+				D87C086D1F9BC9AB003835D1 /* NewUserFlow.storyboard in Resources */,
 				D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
