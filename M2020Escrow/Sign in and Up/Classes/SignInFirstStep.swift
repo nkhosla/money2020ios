@@ -34,6 +34,15 @@ class SignInFirstStep: UIViewController {
 
     @IBAction func signUp(_ sender: Any) {
         print("pressed sign up")
+         let sb = UIStoryboard(name: "NewUserSignUpFlow", bundle: nil);
+        
+         guard let vc = sb.instantiateInitialViewController() else {
+         print("the vc from first login flow storyboard dint load")
+         return;
+         };
+        
+        //let vc =
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func signIn(_ sender: Any) {

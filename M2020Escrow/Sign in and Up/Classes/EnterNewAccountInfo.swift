@@ -18,6 +18,8 @@ class EnterNewAccountInfo: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        passwordField.isSecureTextEntry = true;
 
         // Do any additional setup after loading the view.
     }
