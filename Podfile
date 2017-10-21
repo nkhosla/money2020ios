@@ -7,6 +7,7 @@ target 'M2020Escrow' do
 
   pod 'Alamofire', '~> 4.5'
   pod "TextFieldEffects"
+  pod 'MaterialComponents'
 
   # Pods for M2020Escrow
 

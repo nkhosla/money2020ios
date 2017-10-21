@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "010EBFFF230EB7EABC1A54F05C8CFE27"
+               BlueprintIdentifier = "5F276A4493DA3EAA37BAC4CF7185381F"
                BuildableName = "Pods_M2020Escrow.framework"
                BlueprintName = "Pods-M2020Escrow"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "010EBFFF230EB7EABC1A54F05C8CFE27"
+            BlueprintIdentifier = "5F276A4493DA3EAA37BAC4CF7185381F"
             BuildableName = "Pods_M2020Escrow.framework"
             BlueprintName = "Pods-M2020Escrow"
             ReferencedContainer = "container:Pods.xcodeproj">
