@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '010EBFFF230EB7EABC1A54F05C8CFE27'
-               BlueprintName = 'Pods-M2020Escrow'
+               BlueprintIdentifier = 'F1EA1162688460C4032CA44B3A9F657D'
+               BlueprintName = 'TextFieldEffects'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-M2020Escrow.framework'>
+               BuildableName = 'TextFieldEffects.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -7,39 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34AD77BBA78A9EA6D4B0B2B3BC7EC63C /* Pods-M2020Escrow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A76B63439104938693CAA845EDCC228 /* Pods-M2020Escrow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
+		0C3BFE90E2DE5A20022B1E62B61CC1A0 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010573F17FD3A52F7DF803171C0B1B2 /* AkiraTextField.swift */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6D47F19ED0A788B41D1369F8619C2 /* Timeline.swift */; };
+		128DD10F500F6CAC798FBCDE5B10A7B7 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78D00A4FEEE61B40B8564BAD20C0977 /* YoshikoTextField.swift */; };
+		1946ADBBECF8866CB8A7AB8BA5F07104 /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B409DF1EA20AAE5B88C3615231E5776 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA6209AE9E8FA3A5A42845C8DDEE8A8 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23282F19DF5B762B65FD0A3FF4F4631C /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE5CBA8CA078BC34BD3F28E5F4BA4B /* TextFieldEffects-dummy.m */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A8A1DC752125C286FB26EDB864379B /* TaskDelegate.swift */; };
+		37F3A32FEFCB47E21DC8A6469E28FF63 /* Pods-M2020Escrow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A76B63439104938693CAA845EDCC228 /* Pods-M2020Escrow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB2C4B0DE96BA70F11B4A1FE0BF45FE /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2960917A02170D41CE6E0EDCB8A793DB /* TextFieldEffects.swift */; };
 		40424B3502AC8D87E4CCA7243A8DFCB1 /* Pods-M2020EscrowUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 868AD2723F69F4DA51743D9DE54E5927 /* Pods-M2020EscrowUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC624F5CB5C27325A75BBF6B8785023 /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35619DBFB97C6B4CC832388CE939CFF /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015121E75AAEC494759C8D6DB53962F5 /* ServerTrustPolicy.swift */; };
+		7109933B018BD44BBDC1F923AF8862C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */; };
+		78CE9760CA52A6232C74C23411FE24DF /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939392898DB505F521D17A2B0AC35388 /* MadokaTextField.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2CF81D46CB783359C0AE2093EFD92 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9EFA71F4F4B364C8DE416EDBAD5E72 /* Result.swift */; };
+		90F3E26058C1B81F3EFCB424E3C57A22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9A4D598DCFEC7BD0DF29E685EC5A686A /* Pods-M2020EscrowUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE767B3BDB7B9D549282AF7D3577813 /* Pods-M2020EscrowUITests-dummy.m */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301EDDF9CF17D27964FCDFB280326387 /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1EB77736D836DE3FC27B6DB8870B8 /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B14D25EC9E1A769D65912AC05C990543 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2A7D858D5C42EE7293FFB1245A35FF /* SessionManager.swift */; };
+		B616B92ACF81E0164F694ECD3D69387F /* Pods-M2020Escrow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BCDC2E8416BCF2EF9F555CD5AF612 /* Pods-M2020Escrow-dummy.m */; };
 		B6462BBE2A57FEB0F02EDD728EF0B2CD /* Pods-M2020EscrowTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5207578CAF873B662AA544CCDC9C6D07 /* Pods-M2020EscrowTests-dummy.m */; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C63D7B7DCB25124E9BD02965C92222 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DF4CAADDC323C42B51868AA44B7DFB /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653D1BD4D690034DA775EF16F609BD1F /* ParameterEncoding.swift */; };
+		C228EB9503B2021742A6558A23A0CD19 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7FF4105DEB47A1B81A2E5FCAB7F5A /* KaedeTextField.swift */; };
 		C762AE093EAE6F0E8304CD82A8011214 /* Pods-M2020EscrowTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 081EC8ECB46E3C3D2A8FB826ADBD21A0 /* Pods-M2020EscrowTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
-		E35BC55B2DCA91CD6CB835B44A7CE413 /* Pods-M2020Escrow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BCDC2E8416BCF2EF9F555CD5AF612 /* Pods-M2020Escrow-dummy.m */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3894B1817F199E192DFA503EDF69929 /* Response.swift */; };
+		D12613D2B855C1A1D48DD65ED27F29DA /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03F23F953EC4C8C71E75A8277CA706 /* JiroTextField.swift */; };
+		D1DE9B37FFCBE65D63536CF8AFB8CEB9 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEBDD0734229E4F38B35BA4274AD1DE /* MinoruTextField.swift */; };
+		D960A06FE081C810CA491F8AB9AD4DAB /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE26A2225E18CE7BA9473050132215F /* HoshiTextField.swift */; };
+		E2042A215019E4E200F8FFD71F5ED2CA /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243E4E8AC27DB915E9E48118B84E6226 /* IsaoTextField.swift */; };
 		E58F7E3E4D10788C17D21ADB6CB73901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E68D8A9957B6C9FAFA4B6B99A33A6B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */; };
+		EAAFF97945FC399BDE8EECBC0DF79D61 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AE36A8FE9406803A8FE8FC3130DBE /* YokoTextField.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223EE45E7EFA374DBA6E27AF7BD7E13 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B053414276DB7AF09D335A554EDE2E3 /* ResponseSerialization.swift */; };
 		F7E69408C58AB99C0C7A6B81634C8B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E6C3B13DC87608CF83A41DE77C16FA /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CB65C5DB126AC149E73BD22AAD476D91 /* PBXContainerItemProxy */ = {
+		17C6FA152A2D8E0A04A34E65F9FE2DEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1EA1162688460C4032CA44B3A9F657D;
+			remoteInfo = TextFieldEffects;
+		};
+		3D7762DD87135CCFC95D8177072F73AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -49,81 +69,106 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0010573F17FD3A52F7DF803171C0B1B2 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		015121E75AAEC494759C8D6DB53962F5 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		01E6C3B13DC87608CF83A41DE77C16FA /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		02B798195C75EA48A28AF671FE0E27B5 /* Pods_M2020EscrowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_M2020EscrowTests.framework; path = "Pods-M2020EscrowTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034740F7BE0346DBBA0C71AEB3614738 /* Pods-M2020Escrow-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M2020Escrow-resources.sh"; sourceTree = "<group>"; };
-		04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		03C63D7B7DCB25124E9BD02965C92222 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		081EC8ECB46E3C3D2A8FB826ADBD21A0 /* Pods-M2020EscrowTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-M2020EscrowTests-umbrella.h"; sourceTree = "<group>"; };
+		0AF184C068D83424860D82578D499C10 /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		0B03F23F953EC4C8C71E75A8277CA706 /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
 		0BE9FCF7B9F018FF097E535DC6C740E6 /* Pods-M2020EscrowTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-M2020EscrowTests.modulemap"; sourceTree = "<group>"; };
-		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		13A0A663B36A229C69D5274A83E93F88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9EFA71F4F4B364C8DE416EDBAD5E72 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		0F2A7D858D5C42EE7293FFB1245A35FF /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		12F7FF4105DEB47A1B81A2E5FCAB7F5A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
 		13FD21DDA74058A792BD206AF6F2657A /* Pods-M2020EscrowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M2020EscrowTests.debug.xcconfig"; sourceTree = "<group>"; };
-		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		1E230A0448B394DE26E688DAC8E6201E /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		181F3C8513D5F129FDC9A5C4A4B0EE20 /* Pods_M2020Escrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_M2020Escrow.framework; path = "Pods-M2020Escrow.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA6209AE9E8FA3A5A42845C8DDEE8A8 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		1F82B2900B699BBD9C5F2040CEE7E39A /* Pods-M2020Escrow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M2020Escrow-acknowledgements.plist"; sourceTree = "<group>"; };
-		22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		243E4E8AC27DB915E9E48118B84E6226 /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		2960917A02170D41CE6E0EDCB8A793DB /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
 		2A411C3079B56EC6C74DEC8D2A7B4E55 /* Pods-M2020EscrowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M2020EscrowTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B409DF1EA20AAE5B88C3615231E5776 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
 		2BAEF57F2E4C8A8CECDEA58E7BFB4B30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		301EDDF9CF17D27964FCDFB280326387 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		36D6E4576250A7513C3DF2ED90C8CF3C /* Pods-M2020EscrowUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M2020EscrowUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		4311CF7D0D53801883D06CCBD423E190 /* Pods-M2020Escrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M2020Escrow.release.xcconfig"; sourceTree = "<group>"; };
 		466B66F03ABFED342566C70861ADF57C /* Pods-M2020EscrowUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-M2020EscrowUITests.modulemap"; sourceTree = "<group>"; };
-		46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		4CDE5CBA8CA078BC34BD3F28E5F4BA4B /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
 		4EE767B3BDB7B9D549282AF7D3577813 /* Pods-M2020EscrowUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-M2020EscrowUITests-dummy.m"; sourceTree = "<group>"; };
 		5207578CAF873B662AA544CCDC9C6D07 /* Pods-M2020EscrowTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-M2020EscrowTests-dummy.m"; sourceTree = "<group>"; };
+		55092DB7DBE0002EDEE38D14ECF7F4B0 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		59DE3F4313A49705340C9CA2B1F2BE52 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A76B63439104938693CAA845EDCC228 /* Pods-M2020Escrow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-M2020Escrow-umbrella.h"; sourceTree = "<group>"; };
+		5B3AE36A8FE9406803A8FE8FC3130DBE /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		5EA1EB77736D836DE3FC27B6DB8870B8 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		5EB7D28F5FCD33D956FC6E9D000C7C67 /* Pods-M2020Escrow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-M2020Escrow.modulemap"; sourceTree = "<group>"; };
-		5F58E053A0931F68E579E70D0364D0D2 /* Pods_M2020EscrowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_M2020EscrowTests.framework; path = "Pods-M2020EscrowTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EBE908DC57FCDCD64AAB2C3B5D9994 /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
 		62910BB2BE689805533F01390A59730E /* Pods-M2020EscrowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M2020EscrowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		63540A502CE98C9BF5B72177BFDF45F1 /* Pods-M2020Escrow-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M2020Escrow-frameworks.sh"; sourceTree = "<group>"; };
+		653D1BD4D690034DA775EF16F609BD1F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		67F6D47F19ED0A788B41D1369F8619C2 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		6ADAE545AA4BD04177C9157DA063E666 /* Pods_M2020EscrowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_M2020EscrowUITests.framework; path = "Pods-M2020EscrowUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B053414276DB7AF09D335A554EDE2E3 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		6DEC1BD5E15B996DAF0F25527D003352 /* Pods-M2020EscrowTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M2020EscrowTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6EE26A2225E18CE7BA9473050132215F /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
 		6F84DBCF0E0A1F4B06F2781442288072 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		731B11F103B9706A6662CCCCD6DF988A /* Pods-M2020EscrowTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M2020EscrowTests-resources.sh"; sourceTree = "<group>"; };
+		75A28D35D9AFBE07E523052B37F184C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7619B699068BB7F83CCB72DB06E0C4CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A61BA7BD288C964160245357AD744E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79A7186B162811592FE365EE1BF05538 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CCDF88EEB9459A01A42913089451A79 /* Pods-M2020Escrow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M2020Escrow.debug.xcconfig"; sourceTree = "<group>"; };
-		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		801BCDC2E8416BCF2EF9F555CD5AF612 /* Pods-M2020Escrow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-M2020Escrow-dummy.m"; sourceTree = "<group>"; };
 		868AD2723F69F4DA51743D9DE54E5927 /* Pods-M2020EscrowUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-M2020EscrowUITests-umbrella.h"; sourceTree = "<group>"; };
-		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		8D286AB5DAF542901F40EF3C22E9D43F /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		8EEB49DB815CF9D4E02A7AC6D2DDECC4 /* Pods-M2020EscrowUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M2020EscrowUITests-resources.sh"; sourceTree = "<group>"; };
 		9332FFAF29E59AECD68C7F562625FBF6 /* Pods-M2020EscrowUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M2020EscrowUITests-frameworks.sh"; sourceTree = "<group>"; };
+		939392898DB505F521D17A2B0AC35388 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		9CEBDD0734229E4F38B35BA4274AD1DE /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
 		A04D74190BDF62B6CDB0DB7526992AD0 /* Pods-M2020EscrowTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-M2020EscrowTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A077E105568600644C787123652C3FEF /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		A139CB62A3F8FDEE30667F42765B4408 /* Pods-M2020EscrowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M2020EscrowUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		A4C2CF81D46CB783359C0AE2093EFD92 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		B14D25EC9E1A769D65912AC05C990543 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		B78D00A4FEEE61B40B8564BAD20C0977 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		B94D9D1C190824568DB92A08008DFE85 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC624F5CB5C27325A75BBF6B8785023 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		C1BF0C517DC937A666F80F55B3B586AC /* Pods-M2020EscrowUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-M2020EscrowUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C223EE45E7EFA374DBA6E27AF7BD7E13 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		C3894B1817F199E192DFA503EDF69929 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		C8DF4CAADDC323C42B51868AA44B7DFB /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		C8F66FADD4342F25F6AA82C7C36EA3D9 /* Pods-M2020Escrow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-M2020Escrow-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		E9A8A1DC752125C286FB26EDB864379B /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		EAD61E782BD8C236F0D4D04CA23A7CC4 /* Pods-M2020EscrowTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M2020EscrowTests-frameworks.sh"; sourceTree = "<group>"; };
-		EAF0AC08C4F72296D11A2D5D3E198F04 /* Pods_M2020Escrow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_M2020Escrow.framework; path = "Pods-M2020Escrow.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4C746F6727F26E2B51A56C0B211FC1A /* Pods_M2020EscrowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_M2020EscrowUITests.framework; path = "Pods-M2020EscrowUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35619DBFB97C6B4CC832388CE939CFF /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		FD699CFB424E0AA7A0AF3C45C3118918 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2DAF93E654A35BF4A16B509D998045E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90F3E26058C1B81F3EFCB424E3C57A22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512327B9795ADBECB2637D827BCDD0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7109933B018BD44BBDC1F923AF8862C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64220305D7D3E4ACC2D30783AF5CB1E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F7E69408C58AB99C0C7A6B81634C8B4D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82988FEF13C6EC9DD313CC06983A319E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E68D8A9957B6C9FAFA4B6B99A33A6B64 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,63 +201,63 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		200D10EB20F0397D47F022B50CF0433F /* Alamofire */ = {
+		22538E2038C17459B628EEB0910EF34B /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
-				4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */,
-				DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */,
-				0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */,
-				155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */,
-				E5A8AA5F9EDED0A0BDDE7E830BF4AEE0 /* NetworkReachabilityManager.swift */,
-				66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */,
-				6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */,
-				1E230A0448B394DE26E688DAC8E6201E /* Request.swift */,
-				04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */,
-				E2F9510473F6FFD7AA66524DB16C2263 /* ResponseSerialization.swift */,
-				3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */,
-				32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */,
-				195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */,
-				46CDAC6C1187C5467E576980E1062C8B /* SessionManager.swift */,
-				A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */,
-				87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */,
-				B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */,
-				55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */,
+				0010573F17FD3A52F7DF803171C0B1B2 /* AkiraTextField.swift */,
+				6EE26A2225E18CE7BA9473050132215F /* HoshiTextField.swift */,
+				243E4E8AC27DB915E9E48118B84E6226 /* IsaoTextField.swift */,
+				0B03F23F953EC4C8C71E75A8277CA706 /* JiroTextField.swift */,
+				12F7FF4105DEB47A1B81A2E5FCAB7F5A /* KaedeTextField.swift */,
+				939392898DB505F521D17A2B0AC35388 /* MadokaTextField.swift */,
+				9CEBDD0734229E4F38B35BA4274AD1DE /* MinoruTextField.swift */,
+				2960917A02170D41CE6E0EDCB8A793DB /* TextFieldEffects.swift */,
+				5B3AE36A8FE9406803A8FE8FC3130DBE /* YokoTextField.swift */,
+				B78D00A4FEEE61B40B8564BAD20C0977 /* YoshikoTextField.swift */,
+				4DD4F3C8E82CEC6C45071C4AE5D97737 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		4DD4F3C8E82CEC6C45071C4AE5D97737 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7619B699068BB7F83CCB72DB06E0C4CA /* Info.plist */,
+				0AF184C068D83424860D82578D499C10 /* TextFieldEffects.modulemap */,
+				60EBE908DC57FCDCD64AAB2C3B5D9994 /* TextFieldEffects.xcconfig */,
+				4CDE5CBA8CA078BC34BD3F28E5F4BA4B /* TextFieldEffects-dummy.m */,
+				FD699CFB424E0AA7A0AF3C45C3118918 /* TextFieldEffects-prefix.pch */,
+				2B409DF1EA20AAE5B88C3615231E5776 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		6B5C3EDBBF7398C600BB9D25DCACD9BD /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				301EDDF9CF17D27964FCDFB280326387 /* AFError.swift */,
+				01E6C3B13DC87608CF83A41DE77C16FA /* Alamofire.swift */,
+				F35619DBFB97C6B4CC832388CE939CFF /* DispatchQueue+Alamofire.swift */,
+				03C63D7B7DCB25124E9BD02965C92222 /* MultipartFormData.swift */,
+				5EA1EB77736D836DE3FC27B6DB8870B8 /* NetworkReachabilityManager.swift */,
+				C223EE45E7EFA374DBA6E27AF7BD7E13 /* Notifications.swift */,
+				653D1BD4D690034DA775EF16F609BD1F /* ParameterEncoding.swift */,
+				BEC624F5CB5C27325A75BBF6B8785023 /* Request.swift */,
+				C3894B1817F199E192DFA503EDF69929 /* Response.swift */,
+				6B053414276DB7AF09D335A554EDE2E3 /* ResponseSerialization.swift */,
+				0C9EFA71F4F4B364C8DE416EDBAD5E72 /* Result.swift */,
+				015121E75AAEC494759C8D6DB53962F5 /* ServerTrustPolicy.swift */,
+				A4C2CF81D46CB783359C0AE2093EFD92 /* SessionDelegate.swift */,
+				0F2A7D858D5C42EE7293FFB1245A35FF /* SessionManager.swift */,
+				E9A8A1DC752125C286FB26EDB864379B /* TaskDelegate.swift */,
+				67F6D47F19ED0A788B41D1369F8619C2 /* Timeline.swift */,
+				C8DF4CAADDC323C42B51868AA44B7DFB /* Validation.swift */,
+				F693DA0C7B18778DB7AEB3D9AF5A8BE6 /* Support Files */,
 			);
 			name = Alamofire;
 			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				200D10EB20F0397D47F022B50CF0433F /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3AE6858648A014C4DE94782DF88DF989 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				79A7186B162811592FE365EE1BF05538 /* Alamofire.framework */,
-				EAF0AC08C4F72296D11A2D5D3E198F04 /* Pods_M2020Escrow.framework */,
-				5F58E053A0931F68E579E70D0364D0D2 /* Pods_M2020EscrowTests.framework */,
-				F4C746F6727F26E2B51A56C0B211FC1A /* Pods_M2020EscrowUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		55F14F994FE7AB51F028BFE66CEF3106 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */,
-				E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */,
-				22C1C119BCE81C53F76CAC2BE27C38E0 /* Alamofire-dummy.m */,
-				BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */,
-				B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */,
-				13A0A663B36A229C69D5274A83E93F88 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		75AC8E345662C9A613D159533E1B2FC8 /* Pods-M2020EscrowUITests */ = {
@@ -233,15 +278,36 @@
 			path = "Target Support Files/Pods-M2020EscrowUITests";
 			sourceTree = "<group>";
 		};
+		79B9150CE20BB4F7C19B19C3B583010F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C3EDBBF7398C600BB9D25DCACD9BD /* Alamofire */,
+				22538E2038C17459B628EEB0910EF34B /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
-				3AE6858648A014C4DE94782DF88DF989 /* Products */,
+				79B9150CE20BB4F7C19B19C3B583010F /* Pods */,
+				8BEB2A04CD80423CA4E6D3B9D2BA37A1 /* Products */,
 				025BF892C3C4BAC312CE848025BD42E6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8BEB2A04CD80423CA4E6D3B9D2BA37A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59DE3F4313A49705340C9CA2B1F2BE52 /* Alamofire.framework */,
+				181F3C8513D5F129FDC9A5C4A4B0EE20 /* Pods_M2020Escrow.framework */,
+				02B798195C75EA48A28AF671FE0E27B5 /* Pods_M2020EscrowTests.framework */,
+				6ADAE545AA4BD04177C9157DA063E666 /* Pods_M2020EscrowUITests.framework */,
+				B94D9D1C190824568DB92A08008DFE85 /* TextFieldEffects.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AA5EE2C70AD74F3CDD019CB38F41C357 /* Pods-M2020Escrow */ = {
@@ -296,6 +362,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F693DA0C7B18778DB7AEB3D9AF5A8BE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55092DB7DBE0002EDEE38D14ECF7F4B0 /* Alamofire.modulemap */,
+				8D286AB5DAF542901F40EF3C22E9D43F /* Alamofire.xcconfig */,
+				B14D25EC9E1A769D65912AC05C990543 /* Alamofire-dummy.m */,
+				A077E105568600644C787123652C3FEF /* Alamofire-prefix.pch */,
+				1BA6209AE9E8FA3A5A42845C8DDEE8A8 /* Alamofire-umbrella.h */,
+				75A28D35D9AFBE07E523052B37F184C5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -307,11 +387,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		979FA65EA3E679923A6DC99C7557B6EE /* Headers */ = {
+		51307CDBE92DC244A3808A24E244D619 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34AD77BBA78A9EA6D4B0B2B3BC7EC63C /* Pods-M2020Escrow-umbrella.h in Headers */,
+				1946ADBBECF8866CB8A7AB8BA5F07104 /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0EBB0A002304DE31028A4973F2FB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F3A32FEFCB47E21DC8A6469E28FF63 /* Pods-M2020Escrow-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +422,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		010EBFFF230EB7EABC1A54F05C8CFE27 /* Pods-M2020Escrow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D77B72CC792B366F6980857F803DC7 /* Build configuration list for PBXNativeTarget "Pods-M2020Escrow" */;
+			buildPhases = (
+				D126402E13695D4C2C9AE13C66D71180 /* Sources */,
+				2DAF93E654A35BF4A16B509D998045E8 /* Frameworks */,
+				66C0EBB0A002304DE31028A4973F2FB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9151C154C434DB48F6D7F7E7DF937B1F /* PBXTargetDependency */,
+				9504A905E3E845DB1A263D35F7E72980 /* PBXTargetDependency */,
+			);
+			name = "Pods-M2020Escrow";
+			productName = "Pods-M2020Escrow";
+			productReference = 181F3C8513D5F129FDC9A5C4A4B0EE20 /* Pods_M2020Escrow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		24ECDF82EF4C7BD1A2441EE3873FAC50 /* Pods-M2020EscrowUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59A5683E06CAAE5B1E0DFC7CE757A275 /* Build configuration list for PBXNativeTarget "Pods-M2020EscrowUITests" */;
@@ -348,7 +455,7 @@
 			);
 			name = "Pods-M2020EscrowUITests";
 			productName = "Pods-M2020EscrowUITests";
-			productReference = F4C746F6727F26E2B51A56C0B211FC1A /* Pods_M2020EscrowUITests.framework */;
+			productReference = 6ADAE545AA4BD04177C9157DA063E666 /* Pods_M2020EscrowUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -365,7 +472,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 79A7186B162811592FE365EE1BF05538 /* Alamofire.framework */;
+			productReference = 59DE3F4313A49705340C9CA2B1F2BE52 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8EE8D1330C8BC5B46BCD23233D025103 /* Pods-M2020EscrowTests */ = {
@@ -382,25 +489,24 @@
 			);
 			name = "Pods-M2020EscrowTests";
 			productName = "Pods-M2020EscrowTests";
-			productReference = 5F58E053A0931F68E579E70D0364D0D2 /* Pods_M2020EscrowTests.framework */;
+			productReference = 02B798195C75EA48A28AF671FE0E27B5 /* Pods_M2020EscrowTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9346D8B6EA080451787B064D26F71304 /* Pods-M2020Escrow */ = {
+		F1EA1162688460C4032CA44B3A9F657D /* TextFieldEffects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0B3E65CAFE11DD9E958599E77118079 /* Build configuration list for PBXNativeTarget "Pods-M2020Escrow" */;
+			buildConfigurationList = 43EC748A0EEF16B8B8CABC03289904F0 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
 			buildPhases = (
-				37666F5E4ABB24719DBA52B2B44D0381 /* Sources */,
-				82988FEF13C6EC9DD313CC06983A319E /* Frameworks */,
-				979FA65EA3E679923A6DC99C7557B6EE /* Headers */,
+				FF9A716AC85AB22ED158CC28A260D739 /* Sources */,
+				512327B9795ADBECB2637D827BCDD0A6 /* Frameworks */,
+				51307CDBE92DC244A3808A24E244D619 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EDA08CB1D7A4C65E61BCE5D479A57E52 /* PBXTargetDependency */,
 			);
-			name = "Pods-M2020Escrow";
-			productName = "Pods-M2020Escrow";
-			productReference = EAF0AC08C4F72296D11A2D5D3E198F04 /* Pods_M2020Escrow.framework */;
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = B94D9D1C190824568DB92A08008DFE85 /* TextFieldEffects.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -420,14 +526,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3AE6858648A014C4DE94782DF88DF989 /* Products */;
+			productRefGroup = 8BEB2A04CD80423CA4E6D3B9D2BA37A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
-				9346D8B6EA080451787B064D26F71304 /* Pods-M2020Escrow */,
+				010EBFFF230EB7EABC1A54F05C8CFE27 /* Pods-M2020Escrow */,
 				8EE8D1330C8BC5B46BCD23233D025103 /* Pods-M2020EscrowTests */,
 				24ECDF82EF4C7BD1A2441EE3873FAC50 /* Pods-M2020EscrowUITests */,
+				F1EA1162688460C4032CA44B3A9F657D /* TextFieldEffects */,
 			);
 		};
 /* End PBXProject section */
@@ -458,19 +565,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37666F5E4ABB24719DBA52B2B44D0381 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E35BC55B2DCA91CD6CB835B44A7CE413 /* Pods-M2020Escrow-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7CF69566A303B089A4F49654A117CAE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A4D598DCFEC7BD0DF29E685EC5A686A /* Pods-M2020EscrowUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D126402E13695D4C2C9AE13C66D71180 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B616B92ACF81E0164F694ECD3D69387F /* Pods-M2020Escrow-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,14 +589,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF9A716AC85AB22ED158CC28A260D739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3BFE90E2DE5A20022B1E62B61CC1A0 /* AkiraTextField.swift in Sources */,
+				D960A06FE081C810CA491F8AB9AD4DAB /* HoshiTextField.swift in Sources */,
+				E2042A215019E4E200F8FFD71F5ED2CA /* IsaoTextField.swift in Sources */,
+				D12613D2B855C1A1D48DD65ED27F29DA /* JiroTextField.swift in Sources */,
+				C228EB9503B2021742A6558A23A0CD19 /* KaedeTextField.swift in Sources */,
+				78CE9760CA52A6232C74C23411FE24DF /* MadokaTextField.swift in Sources */,
+				D1DE9B37FFCBE65D63536CF8AFB8CEB9 /* MinoruTextField.swift in Sources */,
+				23282F19DF5B762B65FD0A3FF4F4631C /* TextFieldEffects-dummy.m in Sources */,
+				3EB2C4B0DE96BA70F11B4A1FE0BF45FE /* TextFieldEffects.swift in Sources */,
+				EAAFF97945FC399BDE8EECBC0DF79D61 /* YokoTextField.swift in Sources */,
+				128DD10F500F6CAC798FBCDE5B10A7B7 /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EDA08CB1D7A4C65E61BCE5D479A57E52 /* PBXTargetDependency */ = {
+		9151C154C434DB48F6D7F7E7DF937B1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = CB65C5DB126AC149E73BD22AAD476D91 /* PBXContainerItemProxy */;
+			targetProxy = 3D7762DD87135CCFC95D8177072F73AE /* PBXContainerItemProxy */;
+		};
+		9504A905E3E845DB1A263D35F7E72980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = F1EA1162688460C4032CA44B3A9F657D /* TextFieldEffects */;
+			targetProxy = 17C6FA152A2D8E0A04A34E65F9FE2DEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -520,6 +651,40 @@
 				PRODUCT_NAME = Pods_M2020EscrowUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0734AA203941ABEB75CA1D0BBD99AC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCDF88EEB9459A01A42913089451A79 /* Pods-M2020Escrow.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-M2020Escrow/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_M2020Escrow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -581,7 +746,38 @@
 			};
 			name = Release;
 		};
-		2163D64C5356929B5C66AA7EAB8122CB /* Release */ = {
+		20D95DEE5774EB534BF0D37553C971DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EBE908DC57FCDCD64AAB2C3B5D9994 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A80E9F1E2BE704B3AC071DD3873D08F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4311CF7D0D53801883D06CCBD423E190 /* Pods-M2020Escrow.release.xcconfig */;
 			buildSettings = {
@@ -740,40 +936,6 @@
 			};
 			name = Debug;
 		};
-		63723861516689517A0925A28AA42828 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CCDF88EEB9459A01A42913089451A79 /* Pods-M2020Escrow.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-M2020Escrow/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_M2020Escrow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		996810B671F77D7D9C6A890AE70A79A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A411C3079B56EC6C74DEC8D2A7B4E55 /* Pods-M2020EscrowTests.release.xcconfig */;
@@ -809,7 +971,7 @@
 		};
 		B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 8D286AB5DAF542901F40EF3C22E9D43F /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -840,7 +1002,7 @@
 		};
 		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 8D286AB5DAF542901F40EF3C22E9D43F /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -858,6 +1020,38 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8BF514072286487B466DC9F32137476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EBE908DC57FCDCD64AAB2C3B5D9994 /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -891,6 +1085,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		43EC748A0EEF16B8B8CABC03289904F0 /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D95DEE5774EB534BF0D37553C971DA /* Debug */,
+				D8BF514072286487B466DC9F32137476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		59A5683E06CAAE5B1E0DFC7CE757A275 /* Build configuration list for PBXNativeTarget "Pods-M2020EscrowUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -909,11 +1112,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0B3E65CAFE11DD9E958599E77118079 /* Build configuration list for PBXNativeTarget "Pods-M2020Escrow" */ = {
+		69D77B72CC792B366F6980857F803DC7 /* Build configuration list for PBXNativeTarget "Pods-M2020Escrow" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63723861516689517A0925A28AA42828 /* Debug */,
-				2163D64C5356929B5C66AA7EAB8122CB /* Release */,
+				0734AA203941ABEB75CA1D0BBD99AC49 /* Debug */,
+				3A80E9F1E2BE704B3AC071DD3873D08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
