@@ -16,6 +16,10 @@
 		D87C08491F9BC44F003835D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08471F9BC44F003835D1 /* LaunchScreen.storyboard */; };
 		D87C08541F9BC44F003835D1 /* M2020EscrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08531F9BC44F003835D1 /* M2020EscrowTests.swift */; };
 		D87C085F1F9BC44F003835D1 /* M2020EscrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C085E1F9BC44F003835D1 /* M2020EscrowUITests.swift */; };
+		D8FB59F51F9BF12A00E41437 /* SignInFirstStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB59F31F9BF12A00E41437 /* SignInFirstStep.swift */; };
+		D8FB59F61F9BF12A00E41437 /* SignInFirstStep.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8FB59F41F9BF12A00E41437 /* SignInFirstStep.xib */; };
+		D8FB59FA1F9BF5D800E41437 /* NewUserSignUpFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8FB59F91F9BF5D800E41437 /* NewUserSignUpFlow.storyboard */; };
+		D8FB59FC1F9BF8A400E41437 /* EnterNewAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FB59FB1F9BF8A400E41437 /* EnterNewAccountInfo.swift */; };
 		E491D97D105E17708015635E /* Pods_M2020Escrow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300A102AD91469D48A2CCF98 /* Pods_M2020Escrow.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +61,10 @@
 		D87C085A1F9BC44F003835D1 /* M2020EscrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M2020EscrowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C085E1F9BC44F003835D1 /* M2020EscrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2020EscrowUITests.swift; sourceTree = "<group>"; };
 		D87C08601F9BC44F003835D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8FB59F31F9BF12A00E41437 /* SignInFirstStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInFirstStep.swift; sourceTree = "<group>"; };
+		D8FB59F41F9BF12A00E41437 /* SignInFirstStep.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInFirstStep.xib; sourceTree = "<group>"; };
+		D8FB59F91F9BF5D800E41437 /* NewUserSignUpFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewUserSignUpFlow.storyboard; sourceTree = "<group>"; };
+		D8FB59FB1F9BF8A400E41437 /* EnterNewAccountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNewAccountInfo.swift; sourceTree = "<group>"; };
 		DB565297EA2A4F29A4BC78F7 /* Pods-M2020EscrowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020EscrowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2020EscrowTests/Pods-M2020EscrowTests.release.xcconfig"; sourceTree = "<group>"; };
 		F17570A47F7BD72D38202DDB /* Pods-M2020Escrow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020Escrow.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +148,7 @@
 				D87C083E1F9BC44F003835D1 /* AppDelegate.swift */,
 				D87C08401F9BC44F003835D1 /* ViewController.swift */,
 				D87C08421F9BC44F003835D1 /* Main.storyboard */,
+				D87C08701F9BDE28003835D1 /* Sign in and Up */,
 				D87C08451F9BC44F003835D1 /* Assets.xcassets */,
 				D87C08471F9BC44F003835D1 /* LaunchScreen.storyboard */,
 				D87C084A1F9BC44F003835D1 /* Info.plist */,
@@ -163,6 +172,33 @@
 				D87C08601F9BC44F003835D1 /* Info.plist */,
 			);
 			path = M2020EscrowUITests;
+			sourceTree = "<group>";
+		};
+		D87C08701F9BDE28003835D1 /* Sign in and Up */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB59F71F9BF13500E41437 /* Classes */,
+				D8FB59F81F9BF14000E41437 /* Xibs */,
+				D8FB59F91F9BF5D800E41437 /* NewUserSignUpFlow.storyboard */,
+			);
+			path = "Sign in and Up";
+			sourceTree = "<group>";
+		};
+		D8FB59F71F9BF13500E41437 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB59F31F9BF12A00E41437 /* SignInFirstStep.swift */,
+				D8FB59FB1F9BF8A400E41437 /* EnterNewAccountInfo.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8FB59F81F9BF14000E41437 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB59F41F9BF12A00E41437 /* SignInFirstStep.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +319,8 @@
 			files = (
 				D87C08491F9BC44F003835D1 /* LaunchScreen.storyboard in Resources */,
 				D87C08461F9BC44F003835D1 /* Assets.xcassets in Resources */,
+				D8FB59F61F9BF12A00E41437 /* SignInFirstStep.xib in Resources */,
+				D8FB59FA1F9BF5D800E41437 /* NewUserSignUpFlow.storyboard in Resources */,
 				D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,11 +479,15 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +503,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */,
+				D8FB59FC1F9BF8A400E41437 /* EnterNewAccountInfo.swift in Sources */,
+				D8FB59F51F9BF12A00E41437 /* SignInFirstStep.swift in Sources */,
 				D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
