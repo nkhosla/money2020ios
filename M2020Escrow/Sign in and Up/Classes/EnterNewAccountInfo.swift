@@ -1,5 +1,5 @@
 //
-//  FlowSignInViewController.swift
+//  EnterNewAccountInfo.swift
 //  M2020Escrow
 //
 //  Created by Nathan khosla on 21 Oct 17.
@@ -7,10 +7,15 @@
 //
 
 import UIKit
+import TextFieldEffects
 
-class FlowSignInViewController: UIViewController {
+class EnterNewAccountInfo: UIViewController {
 
-
+    @IBOutlet weak var firstNameField: AkiraTextField!
+    @IBOutlet weak var secondNameField: AkiraTextField!
+    @IBOutlet weak var emailField: AkiraTextField!
+    @IBOutlet weak var passwordField: AkiraTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,15 +37,5 @@ class FlowSignInViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    @IBAction func signIn(_ sender: Any) {
-        print('sign in pressed')
-        
-    }
-    
-    @IBAction func signUp(_ sender: Any) {
-        print('sign up pressed')
-    }
-    
 
 }
