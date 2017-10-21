@@ -1,0 +1,6 @@
+framework module Pods_M2020EscrowUITests {
+  umbrella header "Pods-M2020EscrowUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
