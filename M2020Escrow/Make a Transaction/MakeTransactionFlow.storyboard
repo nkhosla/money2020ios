@@ -166,7 +166,7 @@
                                 <rect key="frame" x="16" y="332" width="343" height="196"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Buyer and Seller agree upon the terms of this Escrow Agreement:
+                                <string key="text">Buyer and Seller agree upon the terms of this Escrow Agreement:
 
 Cellphone Sale and Purchase:
 Seller verifies that the Real Property defined in the sale
@@ -180,24 +180,21 @@ Seller agrees that the Contracted Work defined in the sale
 *Is to be completed at the time agreed upon in the contract
 *Will abide by local, state, and federal law pertaining to their respective contracted work 
 *Will maintain all industry standards and safety measures in the respective contracted work
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXt-Bl-lKx" customClass="MDCRaisedButton">
+                                <rect key="frame" x="22" y="602" width="337" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Agree and Pay"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etb-R6-S51" customClass="MDCRaisedButton">
                                 <rect key="frame" x="22" y="549" width="337" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Disagree and Cancel"/>
                                 <connections>
-                                    <action selector="disagree:" destination="paX-2r-gTc" eventType="touchUpInside" id="Wro-k3-rIR"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXt-Bl-lKx" customClass="MDCRaisedButton">
-                                <rect key="frame" x="22" y="602" width="337" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Agree and Pay"/>
-                                <connections>
-                                    <action selector="agree:" destination="paX-2r-gTc" eventType="touchUpInside" id="bHh-FS-L0Y"/>
+                                    <action selector="disagree:" destination="paX-2r-gTc" eventType="touchUpInside" id="yla-Lv-gw1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -347,7 +344,7 @@ Seller agrees that the Contracted Work defined in the sale
                                 <rect key="frame" x="16" y="165" width="343" height="422"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Buyer and Seller agree upon the terms of this Escrow Agreement:
+                                <string key="text">Buyer and Seller agree upon the terms of this Escrow Agreement:
 
 Cellphone Sale and Purchase:
 Seller verifies that the Real Property defined in the sale
@@ -361,7 +358,7 @@ Seller agrees that the Contracted Work defined in the sale
 *Is to be completed at the time agreed upon in the contract
 *Will abide by local, state, and federal law pertaining to their respective contracted work 
 *Will maintain all industry standards and safety measures in the respective contracted work
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
