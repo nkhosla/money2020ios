@@ -83,6 +83,7 @@ class ViewController: UIViewController, DZNEmptyDataSetSource, DZNEmptyDataSetDe
 
     }**/
     
+
     func backgroundColor(forEmptyDataSet scrollView: UIScrollView!) -> UIColor! {
         // return UIColor(red: 0.894117647, green: 0.945098039, blue: 0.996078431, alpha: 1.0)
         return UIColor(red: 0.925490196, green: 0.925490196, blue: 0.925490196, alpha: 1.0)
@@ -91,6 +92,15 @@ class ViewController: UIViewController, DZNEmptyDataSetSource, DZNEmptyDataSetDe
 
     @objc func fabtapped() {
         print("fab tapped")
+        let sb = UIStoryboard(name: "MakeTransactionFlow", bundle: nil);
+        
+        guard let vc = sb.instantiateInitialViewController() else {
+            print("the vc from new flow didnt load")
+            return;
+        };
+        
+      
+        self.show(vc, sender: nil)
     }
     
     
