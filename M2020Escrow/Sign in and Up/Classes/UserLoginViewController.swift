@@ -9,11 +9,17 @@
 import UIKit
 import TextFieldEffects
 import MaterialComponents.MaterialDialogs
+import MaterialComponents
+import Alamofire
+
 
 class UserLoginViewController: UIViewController {
 
     @IBOutlet weak var passwordField: AkiraTextField!
     @IBOutlet weak var emailField: AkiraTextField!
+    let activityIndicator = MDCActivityIndicator(frame: CGRect(x: 0, y: 0, width: 32, height: 32))
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,7 +42,7 @@ class UserLoginViewController: UIViewController {
         present(alertController, animated:true, completion:nil)
     }
     
-    @IBAction func signIn(_ sender: Any) {
+    func userCanSignIn() -> Bool {
         guard let num = passwordField.text, passwordField.text != "" else {
             showFieldNotCompelteDialog()
             return false
@@ -45,6 +51,51 @@ class UserLoginViewController: UIViewController {
         guard let name = emailField.text, emailField.text != "" else {
             showFieldNotCompelteDialog()
             return false
+        }
+        
+        return true;
+        
+    }
+    
+    func sendLoginRequest() {
+        /**
+         Request
+         get https://igloo2020.herokuapp.com/users/login
+         */
+        
+        // Add URL parameters
+        let urlParams = [
+            "email":"alice@gmail.com",
+            "password":"bar",
+            ]
+        
+        // Fetch Request
+        Alamofire.request("https://igloo2020.herokuapp.com/users/login", method: .get, parameters: urlParams)
+            .validate(statusCode: 200..<300)
+            .responseJSON { response in
+                self.activityIndicator.stopAnimating()
+                
+                if (response.result.error == nil) {
+                    debugPrint("HTTP Response Body: \(response.data)")
+                }
+                else {
+                    debugPrint("HTTP Request failed: \(response.result.error)")
+                }
+        }
+    }
+
+    
+    @IBAction func signIn(_ sender: Any) {
+        
+        if userCanSignIn() {
+            print("cansingin")
+            self.view.addSubview(activityIndicator)
+            
+            // Start animation
+            activityIndicator.startAnimating()
+            
+            sendLoginRequest()
+            
         }
     }
     
