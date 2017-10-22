@@ -8,6 +8,7 @@
 
 import UIKit
 import MaterialComponents
+import Alamofire
 
 class pinViewController: UIViewController {
 
@@ -24,6 +25,8 @@ class pinViewController: UIViewController {
         progressView.frame = CGRect(x: 0, y: 65, width: view.bounds.width, height: progressViewHeight)
         view.addSubview(progressView)
         
+        sendMakeATransactionRequest()
+        
         
     }
 
@@ -32,6 +35,36 @@ class pinViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func sendMakeATransactionRequest() {
+        /**
+         Make a transaction
+         get https://igloo2020.herokuapp.com/transactions/create
+         */
+        
+        let ts = TransactionStore.sharedInstance
+        
+        // Add URL parameters
+        
+        let urlParams = [
+            "type": String(ts.itemType),
+            "price":ts.price,
+            "uid":ts.uid,
+            "item":ts.desc,
+            ]
+        
+        // Fetch Request
+        Alamofire.request("https://igloo2020.herokuapp.com/transactions/create", method: .get, parameters: urlParams)
+            .validate(statusCode: 200..<300)
+            .responseJSON { response in
+                if (response.result.error == nil) {
+                    debugPrint("HTTP Response Body: \(response.data)")
+                    
+                }
+                else {
+                    debugPrint("HTTP Request failed: \(response.result.error)")
+                }
+        }
+    }
 
     /*
     // MARK: - Navigation
