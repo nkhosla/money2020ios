@@ -11,6 +11,8 @@
 		CEFDC25A45C9179E71387307 /* Pods_M2020EscrowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997ED97FEF2DF79D5B2A0D0C /* Pods_M2020EscrowTests.framework */; };
 		D847A23E1F9C2950005086FA /* UserRegestrationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A23D1F9C2950005086FA /* UserRegestrationObject.swift */; };
 		D847A2401F9C361D005086FA /* EnterNewAccountCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A23F1F9C361D005086FA /* EnterNewAccountCCViewController.swift */; };
+		D847A2431F9C4F1C005086FA /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2411F9C4F1C005086FA /* UserLoginViewController.swift */; };
+		D847A2441F9C4F1C005086FA /* UserLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D847A2421F9C4F1C005086FA /* UserLoginViewController.xib */; };
 		D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C083E1F9BC44F003835D1 /* AppDelegate.swift */; };
 		D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08401F9BC44F003835D1 /* ViewController.swift */; };
 		D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08421F9BC44F003835D1 /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 		CF86AFD920028D39FBD84328 /* Pods_M2020EscrowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M2020EscrowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D847A23D1F9C2950005086FA /* UserRegestrationObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegestrationObject.swift; sourceTree = "<group>"; };
 		D847A23F1F9C361D005086FA /* EnterNewAccountCCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNewAccountCCViewController.swift; sourceTree = "<group>"; };
+		D847A2411F9C4F1C005086FA /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		D847A2421F9C4F1C005086FA /* UserLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserLoginViewController.xib; sourceTree = "<group>"; };
 		D87C083B1F9BC44F003835D1 /* M2020Escrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2020Escrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C083E1F9BC44F003835D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D87C08401F9BC44F003835D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +198,7 @@
 				D8FB59F31F9BF12A00E41437 /* SignInFirstStep.swift */,
 				D8FB59FB1F9BF8A400E41437 /* EnterNewAccountInfo.swift */,
 				D847A23F1F9C361D005086FA /* EnterNewAccountCCViewController.swift */,
+				D847A2411F9C4F1C005086FA /* UserLoginViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 		D8FB59F81F9BF14000E41437 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				D847A2421F9C4F1C005086FA /* UserLoginViewController.xib */,
 				D8FB59F91F9BF5D800E41437 /* NewUserSignUpFlow.storyboard */,
 				D8FB59F41F9BF12A00E41437 /* SignInFirstStep.xib */,
 			);
@@ -324,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D87C08491F9BC44F003835D1 /* LaunchScreen.storyboard in Resources */,
+				D847A2441F9C4F1C005086FA /* UserLoginViewController.xib in Resources */,
 				D87C08461F9BC44F003835D1 /* Assets.xcassets in Resources */,
 				D8FB59F61F9BF12A00E41437 /* SignInFirstStep.xib in Resources */,
 				D8FB59FA1F9BF5D800E41437 /* NewUserSignUpFlow.storyboard in Resources */,
@@ -508,6 +515,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D847A2431F9C4F1C005086FA /* UserLoginViewController.swift in Sources */,
 				D847A2401F9C361D005086FA /* EnterNewAccountCCViewController.swift in Sources */,
 				D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */,
 				D8FB59FC1F9BF8A400E41437 /* EnterNewAccountInfo.swift in Sources */,
