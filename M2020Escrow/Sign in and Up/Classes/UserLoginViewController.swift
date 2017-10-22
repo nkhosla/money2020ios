@@ -11,7 +11,7 @@ import TextFieldEffects
 import MaterialComponents.MaterialDialogs
 import MaterialComponents
 import Alamofire
-
+import SwiftyJSON
 
 class UserLoginViewController: UIViewController {
 
@@ -24,8 +24,25 @@ class UserLoginViewController: UIViewController {
         super.viewDidLoad()
         
         passwordField.isSecureTextEntry = true;
+        
+        let tapfiller = UITapGestureRecognizer(target: self, action: #selector(fillInFields) );
+        tapfiller.numberOfTapsRequired = 3
+        
+        navigationController?.navigationBar.addGestureRecognizer(tapfiller)
+        
 
         // Do any additional setup after loading the view.
+    }
+    
+    @objc func fillInFields() {
+        self.emailField.text = "alice@gmail.com"
+        self.passwordField.text = "bar"
+    }
+    
+    func filterTheGoddamnFuglyResponse(response: String) {
+        // so the format is "HTTP Response Body: {\n  \"SECRET_KEY\": \"YOLO420\", \n  \"UID\": 5\n}\n"
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,7 +74,8 @@ class UserLoginViewController: UIViewController {
         
     }
     
-    func sendLoginRequest() {
+    func sendLoginRequest(email:String, pass:String) {
+
         /**
          Request
          get https://igloo2020.herokuapp.com/users/login
@@ -65,23 +83,49 @@ class UserLoginViewController: UIViewController {
         
         // Add URL parameters
         let urlParams = [
-            "email":"alice@gmail.com",
-            "password":"bar",
+            "email":email,
+            "password":pass,
             ]
         
+        print(email,pass)
+        
+       // Alamofire.request("https://httpbin.org/get", parameters: urlParams) // encoding defaults to `URLEncoding.default`
+        
+        // /**
         // Fetch Request
         Alamofire.request("https://igloo2020.herokuapp.com/users/login", method: .get, parameters: urlParams)
             .validate(statusCode: 200..<300)
             .responseJSON { response in
                 self.activityIndicator.stopAnimating()
                 
+                guard let responseData = response.data else {
+                    return
+                }
+//                {
+//                    "SECRET_KEY": "YOLO420",
+//                    "UID": 5
+//                }
+                
+
                 if (response.result.error == nil) {
-                    debugPrint("HTTP Response Body: \(response.data)")
+                    let json = JSON(data: responseData)
+                    guard let secretKey = json["SECRET_KEY"].string,
+                        let uid = json["UID"].int else {
+                            // @TODO: handle error/ different response
+                            return
+                    }
+                    
+                    UserDefaults.standard.set(uid, forKey: "UID")
+                    UserDefaults.standard.set(true, forKey:"hasLoggedIn")
+                    
+                    self.navigationController?.dismiss(animated: true, completion: nil)
+ 
+
                 }
                 else {
-                    debugPrint("HTTP Request failed: \(response.result.error)")
+                    debugPrint("HTTP Request failed: \(response.result.error!)")
                 }
-        }
+        } // **/
     }
 
     
@@ -94,7 +138,7 @@ class UserLoginViewController: UIViewController {
             // Start animation
             activityIndicator.startAnimating()
             
-            sendLoginRequest()
+            sendLoginRequest(email:emailField.text!, pass:passwordField.text!)
             
         }
     }
