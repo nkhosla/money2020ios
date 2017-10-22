@@ -12,6 +12,7 @@ import Alamofire
 
 class pinViewController: UIViewController {
 
+    @IBOutlet weak var pinLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -35,7 +36,13 @@ class pinViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func random(_ n:Int) -> Int
+    {
+        return Int(arc4random_uniform(UInt32(n)))
+    }
+    
     func sendMakeATransactionRequest() {
+
         /**
          Make a transaction
          get https://igloo2020.herokuapp.com/transactions/create
@@ -55,9 +62,25 @@ class pinViewController: UIViewController {
         // Fetch Request
         Alamofire.request("https://igloo2020.herokuapp.com/transactions/create", method: .get, parameters: urlParams)
             .validate(statusCode: 200..<300)
-            .responseJSON { response in
+            .responseString { response in
                 if (response.result.error == nil) {
                     debugPrint("HTTP Response Body: \(response.data)")
+                    let pin = String(data: response.data!, encoding: String.Encoding.ascii)
+                    print(pin)
+                    
+
+                    let newPin1 = self.random(999)
+                    let newPin2 = self.random(999)
+                    let nps1 = String(newPin1)
+                    let nps2 = String(newPin2)
+                    
+                    
+                    
+                    let nps = nps1 + " " + nps2
+                    
+                    self.pinLabel.text = nps
+                    //p = pin.sub
+                    
                     
                 }
                 else {

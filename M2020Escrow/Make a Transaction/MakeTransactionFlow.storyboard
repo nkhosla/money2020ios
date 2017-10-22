@@ -74,6 +74,21 @@
             </objects>
             <point key="canvasLocation" x="333.60000000000002" y="-93.103448275862078"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="dSi-gx-dR1">
+            <objects>
+                <viewController id="q1M-fn-TvC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LTL-IM-swb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="56y-cc-5bk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s5E-Cn-A8n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="604"/>
+        </scene>
         <!--Price Entry View Controller-->
         <scene sceneID="sGQ-ia-xTv">
             <objects>
@@ -82,16 +97,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Hz-iM-RTX" customClass="AkiraTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="178" width="343" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Describe your item in a few words"/>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NDG-ik-dov" customClass="AkiraTextField" customModule="TextFieldEffects">
                                 <rect key="frame" x="16" y="246" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -117,12 +122,22 @@
                                     <segue destination="cvR-nb-iSH" kind="show" identifier="continueSegue" id="bCa-gX-tw1"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Hz-iM-RTX" customClass="AkiraTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="178" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Describe your item in a few words"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vHu-OB-aJG"/>
                     </view>
                     <connections>
-                        <outlet property="descField" destination="NDG-ik-dov" id="GIy-hc-A9p"/>
+                        <outlet property="descField" destination="1Hz-iM-RTX" id="A8c-nr-rJI"/>
                         <outlet property="priceField" destination="NDG-ik-dov" id="CwV-ha-v5R"/>
                     </connections>
                 </viewController>
@@ -253,6 +268,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qK2-Zz-t07"/>
                     </view>
+                    <connections>
+                        <outlet property="pinLabel" destination="f0s-H0-JXa" id="nnn-I1-N0H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="alu-j5-U4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

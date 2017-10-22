@@ -13,7 +13,9 @@ import TextFieldEffects
 class PriceEntryViewController: UIViewController {
 
     @IBOutlet weak var priceField: AkiraTextField!
+    
     @IBOutlet weak var descField: AkiraTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
