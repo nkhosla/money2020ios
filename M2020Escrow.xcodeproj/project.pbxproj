@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7871584D8D6C3EE14DF7D443 /* Pods_M2020EscrowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF86AFD920028D39FBD84328 /* Pods_M2020EscrowUITests.framework */; };
 		CEFDC25A45C9179E71387307 /* Pods_M2020EscrowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997ED97FEF2DF79D5B2A0D0C /* Pods_M2020EscrowTests.framework */; };
+		D847A23E1F9C2950005086FA /* UserRegestrationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A23D1F9C2950005086FA /* UserRegestrationObject.swift */; };
 		D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C083E1F9BC44F003835D1 /* AppDelegate.swift */; };
 		D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08401F9BC44F003835D1 /* ViewController.swift */; };
 		D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08421F9BC44F003835D1 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		7C3DA0BB2B4F0DA864091EF0 /* Pods-M2020EscrowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2020EscrowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2020EscrowUITests/Pods-M2020EscrowUITests.release.xcconfig"; sourceTree = "<group>"; };
 		997ED97FEF2DF79D5B2A0D0C /* Pods_M2020EscrowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M2020EscrowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF86AFD920028D39FBD84328 /* Pods_M2020EscrowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M2020EscrowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D847A23D1F9C2950005086FA /* UserRegestrationObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegestrationObject.swift; sourceTree = "<group>"; };
 		D87C083B1F9BC44F003835D1 /* M2020Escrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2020Escrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C083E1F9BC44F003835D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D87C08401F9BC44F003835D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			children = (
 				D8FB59F31F9BF12A00E41437 /* SignInFirstStep.swift */,
 				D8FB59FB1F9BF8A400E41437 /* EnterNewAccountInfo.swift */,
+				D847A23D1F9C2950005086FA /* UserRegestrationObject.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -506,6 +509,7 @@
 				D8FB59FC1F9BF8A400E41437 /* EnterNewAccountInfo.swift in Sources */,
 				D8FB59F51F9BF12A00E41437 /* SignInFirstStep.swift in Sources */,
 				D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */,
+				D847A23E1F9C2950005086FA /* UserRegestrationObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -47,5 +47,13 @@ class EnterNewAccountInfo: UIViewController {
         
     }
     
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        switch identifier {
+        case "infoToCardSegue":
+            return true;
+        default:
+            <#code#>
+        }
+    }
 
 }
