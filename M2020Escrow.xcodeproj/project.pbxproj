@@ -15,6 +15,13 @@
 		D847A2441F9C4F1C005086FA /* UserLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D847A2421F9C4F1C005086FA /* UserLoginViewController.xib */; };
 		D847A2461F9C9FEA005086FA /* MakeTransactionFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D847A2451F9C9FEA005086FA /* MakeTransactionFlow.storyboard */; };
 		D847A2491F9CA170005086FA /* EscrowTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2481F9CA170005086FA /* EscrowTypeViewController.swift */; };
+		D847A24B1F9CEAAD005086FA /* PriceEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A24A1F9CEAAD005086FA /* PriceEntryViewController.swift */; };
+		D847A24D1F9CEAE5005086FA /* TransactionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A24C1F9CEAE5005086FA /* TransactionStore.swift */; };
+		D847A24F1F9CF15F005086FA /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A24E1F9CF15F005086FA /* TermsAndConditionsViewController.swift */; };
+		D847A2511F9CF724005086FA /* picViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2501F9CF724005086FA /* picViewController.swift */; };
+		D847A2531F9CF7AA005086FA /* pinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2521F9CF7AA005086FA /* pinViewController.swift */; };
+		D847A2551F9D07A9005086FA /* EnterPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2541F9D07A9005086FA /* EnterPinViewController.swift */; };
+		D847A2571F9D0B8F005086FA /* FIinalConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2561F9D0B8F005086FA /* FIinalConfirmationViewController.swift */; };
 		D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C083E1F9BC44F003835D1 /* AppDelegate.swift */; };
 		D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08401F9BC44F003835D1 /* ViewController.swift */; };
 		D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08421F9BC44F003835D1 /* Main.storyboard */; };
@@ -60,6 +67,13 @@
 		D847A2421F9C4F1C005086FA /* UserLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserLoginViewController.xib; sourceTree = "<group>"; };
 		D847A2451F9C9FEA005086FA /* MakeTransactionFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MakeTransactionFlow.storyboard; sourceTree = "<group>"; };
 		D847A2481F9CA170005086FA /* EscrowTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscrowTypeViewController.swift; sourceTree = "<group>"; };
+		D847A24A1F9CEAAD005086FA /* PriceEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceEntryViewController.swift; sourceTree = "<group>"; };
+		D847A24C1F9CEAE5005086FA /* TransactionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionStore.swift; sourceTree = "<group>"; };
+		D847A24E1F9CF15F005086FA /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		D847A2501F9CF724005086FA /* picViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picViewController.swift; sourceTree = "<group>"; };
+		D847A2521F9CF7AA005086FA /* pinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinViewController.swift; sourceTree = "<group>"; };
+		D847A2541F9D07A9005086FA /* EnterPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinViewController.swift; sourceTree = "<group>"; };
+		D847A2561F9D0B8F005086FA /* FIinalConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIinalConfirmationViewController.swift; sourceTree = "<group>"; };
 		D87C083B1F9BC44F003835D1 /* M2020Escrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2020Escrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C083E1F9BC44F003835D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D87C08401F9BC44F003835D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,7 +150,14 @@
 			isa = PBXGroup;
 			children = (
 				D847A2451F9C9FEA005086FA /* MakeTransactionFlow.storyboard */,
+				D847A24A1F9CEAAD005086FA /* PriceEntryViewController.swift */,
+				D847A24C1F9CEAE5005086FA /* TransactionStore.swift */,
 				D847A2481F9CA170005086FA /* EscrowTypeViewController.swift */,
+				D847A24E1F9CF15F005086FA /* TermsAndConditionsViewController.swift */,
+				D847A2501F9CF724005086FA /* picViewController.swift */,
+				D847A2521F9CF7AA005086FA /* pinViewController.swift */,
+				D847A2541F9D07A9005086FA /* EnterPinViewController.swift */,
+				D847A2561F9D0B8F005086FA /* FIinalConfirmationViewController.swift */,
 			);
 			path = "Make a Transaction";
 			sourceTree = "<group>";
@@ -534,13 +555,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D847A2531F9CF7AA005086FA /* pinViewController.swift in Sources */,
+				D847A2551F9D07A9005086FA /* EnterPinViewController.swift in Sources */,
 				D847A2431F9C4F1C005086FA /* UserLoginViewController.swift in Sources */,
+				D847A2511F9CF724005086FA /* picViewController.swift in Sources */,
 				D847A2401F9C361D005086FA /* EnterNewAccountCCViewController.swift in Sources */,
 				D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */,
+				D847A2571F9D0B8F005086FA /* FIinalConfirmationViewController.swift in Sources */,
+				D847A24F1F9CF15F005086FA /* TermsAndConditionsViewController.swift in Sources */,
 				D8FB59FC1F9BF8A400E41437 /* EnterNewAccountInfo.swift in Sources */,
 				D8FB59F51F9BF12A00E41437 /* SignInFirstStep.swift in Sources */,
 				D847A2491F9CA170005086FA /* EscrowTypeViewController.swift in Sources */,
+				D847A24D1F9CEAE5005086FA /* TransactionStore.swift in Sources */,
 				D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */,
+				D847A24B1F9CEAAD005086FA /* PriceEntryViewController.swift in Sources */,
 				D847A23E1F9C2950005086FA /* UserRegestrationObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
