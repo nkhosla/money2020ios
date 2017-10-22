@@ -14,6 +14,8 @@ class EnterPinViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.navigationItem.title = "Enter PIN"
     }
 
     override func didReceiveMemoryWarning() {

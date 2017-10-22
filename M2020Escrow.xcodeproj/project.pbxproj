@@ -21,6 +21,7 @@
 		D847A2511F9CF724005086FA /* picViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2501F9CF724005086FA /* picViewController.swift */; };
 		D847A2531F9CF7AA005086FA /* pinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2521F9CF7AA005086FA /* pinViewController.swift */; };
 		D847A2551F9D07A9005086FA /* EnterPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2541F9D07A9005086FA /* EnterPinViewController.swift */; };
+		D847A2571F9D0B8F005086FA /* FIinalConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2561F9D0B8F005086FA /* FIinalConfirmationViewController.swift */; };
 		D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C083E1F9BC44F003835D1 /* AppDelegate.swift */; };
 		D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08401F9BC44F003835D1 /* ViewController.swift */; };
 		D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08421F9BC44F003835D1 /* Main.storyboard */; };
@@ -72,6 +73,7 @@
 		D847A2501F9CF724005086FA /* picViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picViewController.swift; sourceTree = "<group>"; };
 		D847A2521F9CF7AA005086FA /* pinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinViewController.swift; sourceTree = "<group>"; };
 		D847A2541F9D07A9005086FA /* EnterPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinViewController.swift; sourceTree = "<group>"; };
+		D847A2561F9D0B8F005086FA /* FIinalConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIinalConfirmationViewController.swift; sourceTree = "<group>"; };
 		D87C083B1F9BC44F003835D1 /* M2020Escrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2020Escrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C083E1F9BC44F003835D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D87C08401F9BC44F003835D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				D847A2501F9CF724005086FA /* picViewController.swift */,
 				D847A2521F9CF7AA005086FA /* pinViewController.swift */,
 				D847A2541F9D07A9005086FA /* EnterPinViewController.swift */,
+				D847A2561F9D0B8F005086FA /* FIinalConfirmationViewController.swift */,
 			);
 			path = "Make a Transaction";
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				D847A2511F9CF724005086FA /* picViewController.swift in Sources */,
 				D847A2401F9C361D005086FA /* EnterNewAccountCCViewController.swift in Sources */,
 				D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */,
+				D847A2571F9D0B8F005086FA /* FIinalConfirmationViewController.swift in Sources */,
 				D847A24F1F9CF15F005086FA /* TermsAndConditionsViewController.swift in Sources */,
 				D8FB59FC1F9BF8A400E41437 /* EnterNewAccountInfo.swift in Sources */,
 				D8FB59F51F9BF12A00E41437 /* SignInFirstStep.swift in Sources */,
