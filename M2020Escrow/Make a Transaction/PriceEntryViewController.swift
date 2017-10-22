@@ -17,7 +17,7 @@ class PriceEntryViewController: UIViewController {
         self.navigationItem.title = "The Item"
         
         let progressView = MDCProgressView()
-        progressView.progress = 0.0
+        progressView.progress = 0.4
         
         let progressViewHeight = CGFloat(3)
         progressView.frame = CGRect(x: 0, y: 65, width: view.bounds.width, height: progressViewHeight)

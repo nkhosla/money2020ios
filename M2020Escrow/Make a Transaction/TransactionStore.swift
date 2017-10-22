@@ -11,11 +11,17 @@ import UIKit
 class TransactionStore: NSObject {
 
     var itemType: Int
+    var uid: String
+    var desc: String
+    var price: String
     
     override init() {
         
         // This is my disgusting way to avoid using optionals. Please dont judge me
         itemType = -1;
+        uid = "";
+        desc = ""
+        price = ""
         
 
         

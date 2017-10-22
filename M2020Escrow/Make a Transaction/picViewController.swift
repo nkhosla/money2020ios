@@ -1,5 +1,5 @@
 //
-//  TermsAndConditionsViewController.swift
+//  picViewController.swift
 //  M2020Escrow
 //
 //  Created by Nathan khosla on 22 Oct 17.
@@ -9,17 +9,15 @@
 import UIKit
 import MaterialComponents
 
-class TermsAndConditionsViewController: UIViewController {
+class picViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        self.navigationItem.title = "Contract Details"
-        
         let progressView = MDCProgressView()
-        progressView.progress = 0.8
+        progressView.progress = 0.6
         
         let progressViewHeight = CGFloat(3)
         progressView.frame = CGRect(x: 0, y: 65, width: view.bounds.width, height: progressViewHeight)

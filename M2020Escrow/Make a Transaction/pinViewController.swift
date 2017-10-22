@@ -1,5 +1,5 @@
 //
-//  TermsAndConditionsViewController.swift
+//  pinViewController.swift
 //  M2020Escrow
 //
 //  Created by Nathan khosla on 22 Oct 17.
@@ -9,21 +9,22 @@
 import UIKit
 import MaterialComponents
 
-class TermsAndConditionsViewController: UIViewController {
+class pinViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        self.navigationItem.title = "Contract Details"
+        self.navigationItem.title = "Your PIN"
         
         let progressView = MDCProgressView()
-        progressView.progress = 0.8
+        progressView.progress = 1.0
         
         let progressViewHeight = CGFloat(3)
         progressView.frame = CGRect(x: 0, y: 65, width: view.bounds.width, height: progressViewHeight)
         view.addSubview(progressView)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
