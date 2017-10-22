@@ -50,7 +50,7 @@ class EnterNewAccountInfo: UIViewController {
     
     func showFieldNotCompelteDialog() {
         // Present a modal alert
-        let alertController = MDCAlertController(title: "Warning", message: "Please complete all of the fields before continuing.")
+        let alertController = MDCAlertController(title: "Uh Oh!", message: "Did you forget something? Please complete all of the fields before continuing.")
         let action = MDCAlertAction(title:"OK") { (action) in print("OK") }
         alertController.addAction(action)
         

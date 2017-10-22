@@ -85,21 +85,14 @@
             </objects>
             <point key="canvasLocation" x="-151.19999999999999" y="158.77061469265368"/>
         </scene>
-        <!--View Controller-->
+        <!--Enter New AccountCC View Controller-->
         <scene sceneID="nbx-OR-2BU">
             <objects>
-                <viewController id="rg5-B5-R2c" sceneMemberID="viewController">
+                <viewController id="rg5-B5-R2c" customClass="EnterNewAccountCCViewController" customModule="M2020Escrow" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JCn-C7-H7R">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Card" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFT-ZT-yR4">
-                                <rect key="frame" x="16" y="72" width="343" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KGb-nk-rWO" customClass="AkiraTextField" customModule="TextFieldEffects">
                                 <rect key="frame" x="67" y="185" width="192" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
@@ -154,11 +147,33 @@
                                 <rect key="frame" x="267" y="196" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Camera"/>
+                                <connections>
+                                    <action selector="useCameraForCardInput:" destination="rg5-B5-R2c" eventType="touchUpInside" id="djn-Dp-K9m"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLa-mq-CLP">
+                                <rect key="frame" x="67" y="303" width="240" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Card" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vFT-ZT-yR4">
+                                <rect key="frame" x="16" y="72" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BCN-N2-bDU"/>
                     </view>
+                    <connections>
+                        <outlet property="ccCVVField" destination="EWY-WA-65o" id="BOP-F7-Xry"/>
+                        <outlet property="ccMMField" destination="rdx-X9-VhR" id="eea-n4-8mO"/>
+                        <outlet property="ccNameField" destination="DE8-on-POT" id="w1m-MW-eBQ"/>
+                        <outlet property="ccNumberField" destination="KGb-nk-rWO" id="XC4-mh-4eh"/>
+                        <outlet property="ccYYYYField" destination="iEa-Vj-Qxu" id="hNQ-2b-O3d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jt1-nv-jZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
