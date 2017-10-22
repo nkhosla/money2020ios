@@ -9,6 +9,7 @@ target 'M2020Escrow' do
   pod "TextFieldEffects"
   pod 'MaterialComponents'
   pod 'SwiftyJSON'
+  pod 'DZNEmptyDataSet'
 
   # Pods for M2020Escrow
 

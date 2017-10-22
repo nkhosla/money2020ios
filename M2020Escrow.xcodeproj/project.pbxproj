@@ -13,6 +13,8 @@
 		D847A2401F9C361D005086FA /* EnterNewAccountCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A23F1F9C361D005086FA /* EnterNewAccountCCViewController.swift */; };
 		D847A2431F9C4F1C005086FA /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2411F9C4F1C005086FA /* UserLoginViewController.swift */; };
 		D847A2441F9C4F1C005086FA /* UserLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D847A2421F9C4F1C005086FA /* UserLoginViewController.xib */; };
+		D847A2461F9C9FEA005086FA /* MakeTransactionFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D847A2451F9C9FEA005086FA /* MakeTransactionFlow.storyboard */; };
+		D847A2491F9CA170005086FA /* EscrowTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D847A2481F9CA170005086FA /* EscrowTypeViewController.swift */; };
 		D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C083E1F9BC44F003835D1 /* AppDelegate.swift */; };
 		D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C08401F9BC44F003835D1 /* ViewController.swift */; };
 		D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87C08421F9BC44F003835D1 /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 		D847A23F1F9C361D005086FA /* EnterNewAccountCCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNewAccountCCViewController.swift; sourceTree = "<group>"; };
 		D847A2411F9C4F1C005086FA /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
 		D847A2421F9C4F1C005086FA /* UserLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserLoginViewController.xib; sourceTree = "<group>"; };
+		D847A2451F9C9FEA005086FA /* MakeTransactionFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MakeTransactionFlow.storyboard; sourceTree = "<group>"; };
+		D847A2481F9CA170005086FA /* EscrowTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscrowTypeViewController.swift; sourceTree = "<group>"; };
 		D87C083B1F9BC44F003835D1 /* M2020Escrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2020Escrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87C083E1F9BC44F003835D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D87C08401F9BC44F003835D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,6 +132,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D847A2471F9C9FFB005086FA /* Make a Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				D847A2451F9C9FEA005086FA /* MakeTransactionFlow.storyboard */,
+				D847A2481F9CA170005086FA /* EscrowTypeViewController.swift */,
+			);
+			path = "Make a Transaction";
+			sourceTree = "<group>";
+		};
 		D87C08321F9BC44F003835D1 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +169,7 @@
 				D87C083E1F9BC44F003835D1 /* AppDelegate.swift */,
 				D87C08401F9BC44F003835D1 /* ViewController.swift */,
 				D87C08421F9BC44F003835D1 /* Main.storyboard */,
+				D847A2471F9C9FFB005086FA /* Make a Transaction */,
 				D87C08701F9BDE28003835D1 /* Sign in and Up */,
 				D87C08451F9BC44F003835D1 /* Assets.xcassets */,
 				D87C08471F9BC44F003835D1 /* LaunchScreen.storyboard */,
@@ -333,6 +347,7 @@
 				D847A2441F9C4F1C005086FA /* UserLoginViewController.xib in Resources */,
 				D87C08461F9BC44F003835D1 /* Assets.xcassets in Resources */,
 				D8FB59F61F9BF12A00E41437 /* SignInFirstStep.xib in Resources */,
+				D847A2461F9C9FEA005086FA /* MakeTransactionFlow.storyboard in Resources */,
 				D8FB59FA1F9BF5D800E41437 /* NewUserSignUpFlow.storyboard in Resources */,
 				D87C08441F9BC44F003835D1 /* Main.storyboard in Resources */,
 			);
@@ -492,6 +507,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-M2020Escrow/Pods-M2020Escrow-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -500,6 +516,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -522,6 +539,7 @@
 				D87C08411F9BC44F003835D1 /* ViewController.swift in Sources */,
 				D8FB59FC1F9BF8A400E41437 /* EnterNewAccountInfo.swift in Sources */,
 				D8FB59F51F9BF12A00E41437 /* SignInFirstStep.swift in Sources */,
+				D847A2491F9CA170005086FA /* EscrowTypeViewController.swift in Sources */,
 				D87C083F1F9BC44F003835D1 /* AppDelegate.swift in Sources */,
 				D847A23E1F9C2950005086FA /* UserRegestrationObject.swift in Sources */,
 			);

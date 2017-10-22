@@ -17,7 +17,7 @@ class UserLoginViewController: UIViewController {
 
     @IBOutlet weak var passwordField: AkiraTextField!
     @IBOutlet weak var emailField: AkiraTextField!
-    let activityIndicator = MDCActivityIndicator(frame: CGRect(x: 0, y: 0, width: 32, height: 32))
+    let activityIndicator = MDCActivityIndicator(frame: CGRect(x: 187, y: 325, width: 32, height: 32))
     
     
     override func viewDidLoad() {
@@ -134,6 +134,7 @@ class UserLoginViewController: UIViewController {
         if userCanSignIn() {
             print("cansingin")
             self.view.addSubview(activityIndicator)
+            
             
             // Start animation
             activityIndicator.startAnimating()
