@@ -113,6 +113,9 @@
                                 <rect key="frame" x="16" y="587" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Continue"/>
+                                <connections>
+                                    <segue destination="cvR-nb-iSH" kind="show" identifier="continueSegue" id="bCa-gX-tw1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -122,6 +125,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PS0-Gh-XRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1039.2" y="-87.706146926536732"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mFp-6U-7q7">
+            <objects>
+                <viewController id="cvR-nb-iSH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XYa-YJ-ApQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laptop" translatesAutoresizingMaskIntoConstraints="NO" id="trx-zY-nA3">
+                                <rect key="frame" x="34" y="200" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camerasq" translatesAutoresizingMaskIntoConstraints="NO" id="v5K-KH-hlX">
+                                <rect key="frame" x="192" y="200" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phone" translatesAutoresizingMaskIntoConstraints="NO" id="uTn-DG-Put">
+                                <rect key="frame" x="192" y="358" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add a few images to ensure that you are protected against any claims. Click on any image to replace it with your own." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJw-SE-ijX">
+                                <rect key="frame" x="16" y="110" width="351" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xj7-zs-gf2" customClass="MDCRaisedButton">
+                                <rect key="frame" x="16" y="587" width="343" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Continue"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="contract" translatesAutoresizingMaskIntoConstraints="NO" id="1vB-FS-ahh">
+                                <rect key="frame" x="34" y="358" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zNS-Rf-kqU"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="navigationItem.title" value="Pictures"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bza-RR-3IX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1704.8" y="-85.007496251874073"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qUb-9U-z65">
@@ -142,6 +193,12 @@
             <point key="canvasLocation" x="-572.79999999999995" y="-92.653673163418304"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camerasq" width="240" height="240"/>
+        <image name="contract" width="66" height="66"/>
+        <image name="laptop" width="160" height="160"/>
+        <image name="phone" width="85" height="85"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="EXX-ok-AVh"/>
     </inferredMetricsTieBreakers>
