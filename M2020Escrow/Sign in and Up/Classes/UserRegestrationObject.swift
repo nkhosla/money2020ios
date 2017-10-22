@@ -20,7 +20,6 @@ class UserRegestrationObject: NSObject {
     var ccCVV: String
     
     override init() {
-        super.init()
         
         // This is my disgusting way to avoid using optionals. Please dont judge me
         firstName = ""
@@ -32,6 +31,7 @@ class UserRegestrationObject: NSObject {
         ccExp = ""
         ccCVV = ""
         
+        super.init()
     }
  
     static let sharedInstance = UserRegestrationObject()
