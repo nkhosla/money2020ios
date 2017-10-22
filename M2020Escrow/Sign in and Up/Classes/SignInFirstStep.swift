@@ -14,6 +14,19 @@ class SignInFirstStep: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // So though we could login properly, we are making these quick gestures to login
+        //so that we can get on with our lives both in development and in the demos
+        /** let loginAliceQuickGesture = UITapGestureRecognizer(target: self, action: #selector(logAliceIn) );
+        tapfiller.numberOfTapsRequired = 3
+        
+        navigationController?.navigationBar.addGestureRecognizer(loginAliceQuickGesture)
+        
+        
+        let loginPableQuickGesture = UITapGestureRecognizer(target: self, action: #selector(logPabloIn) );
+        tapfiller.numberOfTapsRequired = 2
+        
+        navigationController?.navigationBar.addGestureRecognizer(loginPableQuickGesture) **/
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +34,15 @@ class SignInFirstStep: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func logPabloIn() {
+         let hasLoggedInBefore = UserDefaults.standard.bool(forKey: "hasLoggedIn");
+        
+    }
+    
+    func logAliceIn() {
+        
+        
+    }
 
     /*
     // MARK: - Navigation
@@ -37,7 +59,7 @@ class SignInFirstStep: UIViewController {
          let sb = UIStoryboard(name: "NewUserSignUpFlow", bundle: nil);
         
          guard let vc = sb.instantiateInitialViewController() else {
-         print("the vc from first login flow storyboard dint load")
+         print("the vc from first signup flow storyboard dint load")
          return;
          };
         
@@ -46,6 +68,10 @@ class SignInFirstStep: UIViewController {
     }
     
     @IBAction func signIn(_ sender: Any) {
+        let vc = UserLoginViewController(nibName: "UserLoginViewController", bundle: nil)
+        
+        
+        self.navigationController?.pushViewController(vc, animated: true)
         print("pressed sign in")
     }
 }
