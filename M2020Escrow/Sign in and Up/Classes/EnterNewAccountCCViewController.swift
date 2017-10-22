@@ -57,6 +57,49 @@ class EnterNewAccountCCViewController: UIViewController {
         present(alertController, animated:true, completion:nil)
     }
     
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        
+        print("am in segue method")
+        
+        let h = UserRegestrationObject.sharedInstance
+        
+        guard let num = ccNumberField.text, ccNumberField.text != "" else {
+            showFieldNotCompelteDialog()
+            return false
+        }
+        
+        guard let name = ccNameField.text, ccNameField.text != "" else {
+            showFieldNotCompelteDialog()
+            return false
+        }
+        
+        guard let mm = ccMMField.text, ccMMField.text != "" else{
+            showFieldNotCompelteDialog()
+            return false
+        }
+        
+        guard let yyyy = ccYYYYField.text, ccYYYYField.text != "" else {
+            showFieldNotCompelteDialog()
+            return false
+        }
+        
+        guard let cvv = ccCVVField.text, ccCVVField.text != "" else {
+            showFieldNotCompelteDialog()
+            return false
+        }
+        
+        // dont ask why I couldnt do this in the guard statements, but f-ing
+        // xcode and swift threw a fit
+
+        h.ccCVV = cvv;
+        h.ccNumber = num;
+        h.ccName = name;
+        h.ccExpMM = mm;
+        h.ccExpYYYY = yyyy;
+        
+        return true;
+        
+    }
     
 
 }

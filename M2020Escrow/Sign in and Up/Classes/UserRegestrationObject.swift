@@ -16,7 +16,8 @@ class UserRegestrationObject: NSObject {
     var password: String
     var ccName: String
     var ccNumber: String
-    var ccExp: String
+    var ccExpMM: String
+    var ccExpYYYY: String
     var ccCVV: String
     
     override init() {
@@ -28,8 +29,9 @@ class UserRegestrationObject: NSObject {
         password = ""
         ccName = ""
         ccNumber = ""
-        ccExp = ""
+        ccExpYYYY = ""
         ccCVV = ""
+        ccExpMM = ""
         
         super.init()
     }
