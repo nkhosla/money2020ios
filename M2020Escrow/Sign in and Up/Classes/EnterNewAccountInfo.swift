@@ -24,6 +24,7 @@ class EnterNewAccountInfo: UIViewController {
         
         passwordField.isSecureTextEntry = true;
         
+        self.navigationItem.title = "About You"
         // Do any additional setup after loading the view.
     }
     
